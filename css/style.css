@@ -31,5 +31,24 @@ h1 {
 }
 
 #container {
-  margin-left:50px;
+  padding:50px;
+}
+#output {
+  font-size:1.2em;
+}
+
+@media screen and (max-width: 550px) {
+  #container {
+    width:calc(100% - 60px);
+    padding:30px;
+  }
+  #input {
+    width:calc(100% - 50px);
+  }
+  h1 {
+    font-size:1.5em;
+  }
+  #input-div, form {
+    width:100%;
+  }
 }
