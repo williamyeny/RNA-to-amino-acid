@@ -1,0 +1,35 @@
+* {
+  margin:0;
+  padding:0;
+  color:#333333;
+  font-family:sans-serif;
+}
+
+h1 {
+  margin:50px 0 0 0;
+}
+
+#input {
+  padding:2px;
+  width:400px;
+  border-radius:2px;
+  border-style:solid;
+  border-color:#dddddd;
+  vertical-align:top;
+}
+
+#drawing {
+  height:100%;
+}
+
+#submit {
+  cursor:pointer;  
+}
+
+#input-div {
+  margin-top:10px;
+}
+
+#container {
+  margin-left:50px;
+}
