@@ -1,0 +1,54 @@
+* {
+  margin:0;
+  padding:0;
+  color:#333333;
+  font-family:sans-serif;
+}
+
+h1 {
+  margin:50px 0 0 0;
+}
+
+#input {
+  padding:2px;
+  width:400px;
+  border-radius:2px;
+  border-style:solid;
+  border-color:#dddddd;
+  vertical-align:top;
+}
+
+#drawing {
+  height:100%;
+}
+
+#submit {
+  cursor:pointer;  
+}
+
+#input-div {
+  margin-top:10px;
+}
+
+#container {
+  padding:50px;
+}
+#output {
+  font-size:1.2em;
+}
+
+@media screen and (max-width: 550px) {
+  #container {
+    width:calc(100% - 60px);
+    padding:30px;
+  }
+  #input {
+    width:calc(100% - 50px);
+  }
+  h1 {
+    font-size:1.5em;
+  }
+  #input-div, form {
+    width:100%;
+  }
+}
